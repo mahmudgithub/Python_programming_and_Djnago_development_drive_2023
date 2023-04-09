@@ -8,4 +8,4 @@ fun1()
 
 def fun2():
     print ("git ssh key ")
-fun3()
+fun2()
