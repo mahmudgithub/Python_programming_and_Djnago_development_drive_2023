@@ -8,19 +8,29 @@
 #     Greater than or equal to: a >= b
 
 
-a=10
-b=3
-if a==b:
-    print ("both are equal and result is zero:",a-b)
-else :
-    print("not equals")
+# a=10
+# b=3
+# if a==b:
+#     print ("both are equal and result is zero:",a-b)
+# else :
+#     print("not equals")
+
+
+# def fun(a,b):
+#     if a==b:
+#         print("both are equal")
+#     else:
+#         print ("not equal")
+# one=int(input("enter first number:"))
+# two=int(input("enter second number:"))
+# fun(one,two)
 
 
 def fun(a,b):
-    if a==b:
-        print("both are equal")
+    if a!=b:
+        print("a is not equal b")
     else:
-        print ("not equal")
+        print("equal")
 one=int(input("enter first number:"))
 two=int(input("enter second number:"))
 fun(one,two)
