@@ -49,9 +49,21 @@
 # fun(one,two)
 
 
-def fun(a,b,c):
-    print("a ,b,c are both are equal:",a-b-c) if a==b==c else print("a >b>c")
-one=int(input("first number:"))
-two=int(input("second number:"))
-three=int(input("third number: "))
-fun(one,two,three)
+# def fun(a,b,c):
+#     print("a ,b,c are both are equal:",a-b-c) if a==b==c else print("a >b>c")
+# one=int(input("first number:"))
+# two=int(input("second number:"))
+# three=int(input("third number: "))
+# fun(one,two,three)
+
+# And
+# The and keyword is a logical operator, and is used to combine conditional statements:
+# def fun(a,b,c):
+#     if a>b and a>c:
+#         print("condition are true")
+#     else :
+#         print("false")
+# one=int(input("enter first number:"))
+# two=int(input("enter second number:"))
+# three=int(input("enter third number:"))
+# fun(one,two,three)
