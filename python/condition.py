@@ -42,8 +42,16 @@
 # b=3
 # if a > b:print("hello mim")
 
-def fun(a,b):
-    print ("i love you mim") if a>b else print("jaf love mim")
-one=int(input("enter first number:"))
-two=int(input("enter second number:"))
-fun(one,two)
+# def fun(a,b):
+#     print ("i love you mim") if a>b else print("jaf love mim")
+# one=int(input("enter first number:"))
+# two=int(input("enter second number:"))
+# fun(one,two)
+
+
+def fun(a,b,c):
+    print("a ,b,c are both are equal:",a-b-c) if a==b==c else print("a >b>c")
+one=int(input("first number:"))
+two=int(input("second number:"))
+three=int(input("third number: "))
+fun(one,two,three)
